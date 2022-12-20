@@ -69,3 +69,21 @@
   height: 50%;
   margin : 0 auto
 }
+/* トップへ戻るボタン */
+.page_top_btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+  padding: 0.7em;
+  text-align: center;
+  background: rgb(13, 255, 0);
+  color: #fff;
+  transition: 0.3s0;
+}
+
+/* マウスオーバー時 */
+.page_top_btn:hover {
+  background: rgba(0, 255, 8, 0.8);
+  color: rgb(255, 255, 255, 0.8);
+}
