@@ -96,3 +96,9 @@
   text-align:center;
   padding:20px 0;
 }
+.kamome{
+  font-size: 30px;/*文字サイズ*/
+  color: #000000;/*文字色*/
+  background: #FFFFFF; /*背景色*/
+  font-family:HGP行書体;
+}
