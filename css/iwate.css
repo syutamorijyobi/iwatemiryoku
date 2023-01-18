@@ -102,9 +102,29 @@
   background: #FFFFFF; /*背景色*/
   font-family:HGP行書体;
 }
+
 .youguru{
   font-size: 30px;/*文字サイズ*/
   color: #000000;/*文字色*/
   background: #FFFFFF; /*背景色*/
   font-family:HGP創英ﾌﾟﾚｾﾞﾝｽEB;
+  
+.sticky-3 {
+  display: flex ;
+}
+.sticky-3 .main {
+  width: 70% ;
+  min-height: 100vh ;
+  background: #f1f1f1 ;
+  padding: 1rem ;
+  box-sizing: border-box ;
+}
+.sticky-3 .side {
+  width: 30% ;
+  padding-left: 1rem ;
+  box-sizing: border-box ;
+}
+.sticky-3 .side .side__contents {
+  top: 30px ;
+  position: sticky;
 }
