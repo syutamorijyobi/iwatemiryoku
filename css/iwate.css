@@ -65,13 +65,74 @@
    height: 100%;
 }
 .sai{
-  width: 50%;
-  height: 50%;
+  width: 750px;
+  height: 300px;
   margin : 0 auto
 }
+
 .danf{
   list-style: none;
 }
 .dango{
   display: flex;
+}
+/* トップへ戻るボタン */
+.page_top_btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+  padding: 0.7em;
+  text-align: center;
+  background: rgb(13, 255, 0);
+  color: #fff;
+  transition: 0.3s0;
+}
+
+/* マウスオーバー時 */
+.page_top_btn:hover {
+  background: rgba(0, 255, 8, 0.8);
+  color: rgb(255, 255, 255, 0.8);
+}
+.bun {
+  font-size: 30px;/*文字サイズ*/
+  color: #000000;/*文字色*/
+  background: #FFFFFF; /*背景色*/
+  padding: 0.5em; /*文字まわり（上下左右）の余白*/
+  font-family:游明朝体;
+  text-align:center;
+  padding:20px 0;
+}
+.kamome{
+  font-size: 30px;/*文字サイズ*/
+  color: #000000;/*文字色*/
+  background: #FFFFFF; /*背景色*/
+  font-family:HGP行書体;
+}
+
+.youguru{
+  font-size: 30px;/*文字サイズ*/
+  color: #000000;/*文字色*/
+  background: #FFFFFF; /*背景色*/
+  font-family:HGP創英ﾌﾟﾚｾﾞﾝｽEB;
+  
+.sticky-3 {
+  display: flex ;
+}
+.sticky-3 .main {
+  width: 70% ;
+  min-height: 100vh ;
+  background: #f1f1f1 ;
+  padding: 1rem ;
+  box-sizing: border-box ;
+}
+.sticky-3 .side {
+  width: 30% ;
+  padding-left: 1rem ;
+  box-sizing: border-box ;
+}
+.sticky-3 .side .side__contents {
+  top: 30px ;
+  position: sticky;
+
 }
