@@ -69,3 +69,9 @@
   height: 50%;
   margin : 0 auto
 }
+.danf{
+  list-style: none;
+}
+.dango{
+  display: flex;
+}
