@@ -69,6 +69,13 @@
   height: 300px;
   margin : 0 auto
 }
+
+.danf{
+  list-style: none;
+}
+.dango{
+  display: flex;
+}
 /* トップへ戻るボタン */
 .page_top_btn {
   position: fixed;
@@ -127,4 +134,5 @@
 .sticky-3 .side .side__contents {
   top: 30px ;
   position: sticky;
+
 }
