@@ -69,6 +69,13 @@
   height: 300px;
   margin : 0 auto
 }
+
+.danf{
+  list-style: none;
+}
+.dango{
+  display: flex;
+}
 /* トップへ戻るボタン */
 .page_top_btn {
   position: fixed;
@@ -103,6 +110,13 @@
   font-family:HGP行書体;
   word-wrap: normal;
 }
+
+.youguru{
+  font-size: 30px;/*文字サイズ*/
+  color: #000000;/*文字色*/
+  background: #FFFFFF; /*背景色*/
+  font-family:HGP創英ﾌﾟﾚｾﾞﾝｽEB;
+  }
 .sticky-3 {
   display: flex ;
 }
