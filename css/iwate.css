@@ -108,6 +108,7 @@
   color: #000000;/*文字色*/
   background: #FFFFFF; /*背景色*/
   font-family:HGP行書体;
+  word-wrap: normal;
 }
 
 .youguru{
@@ -115,7 +116,7 @@
   color: #000000;/*文字色*/
   background: #FFFFFF; /*背景色*/
   font-family:HGP創英ﾌﾟﾚｾﾞﾝｽEB;
-  
+  }
 .sticky-3 {
   display: flex ;
 }
@@ -127,12 +128,24 @@
   box-sizing: border-box ;
 }
 .sticky-3 .side {
-  width: 30% ;
+  width: 20% ;
   padding-left: 1rem ;
   box-sizing: border-box ;
 }
 .sticky-3 .side .side__contents {
   top: 30px ;
   position: sticky;
-
+}
+.basic {
+  font-size: 20px;
+	text-decoration: none;
+  background: 
+      linear-gradient(currentColor 0 0) 
+      var(--p, 0) 100% /var(--d, 0) 3px 
+      no-repeat;
+  transition: 0.3s, background-position 0s 0.3s;
+}
+.basic:hover {
+  --d: 100%;
+  --p: 100%;
 }
